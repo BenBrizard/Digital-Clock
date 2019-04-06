@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Mar 30 14:48:36 2019
+# Process ID: 8020
+# Current directory: C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_28_triste
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12556 C:\Users\Benoit Brizard\Documents\1-hiv19\ELE3311\lab\tp3\tp3_bb_28_triste\TP3_BB_ARD.xpr
+# Log file: C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_28_triste/vivado.log
+# Journal file: C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_28_triste\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_28_triste/TP3_BB_ARD.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/tp3_bb_28/tp3_bb_28/tp3_bb_27soir_professionnel/tp3_bb_27mars/TP3_BB_ARD' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:09 . Memory (MB): peak = 656.828 ; gain = 59.254
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 30 14:57:15 2019...

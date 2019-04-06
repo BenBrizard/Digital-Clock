@@ -1,0 +1,19 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/tp3_bb_27mars/TP3_BB_ARD/TP3_BB_ARD.sim/sim_1/synth/func/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/tp3_bb_27mars/TP3_BB_ARD/TP3_BB_ARD.sim/sim_1/synth/func/xsim/horloge_oled_TB_func_synth.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'antirebond_1b'
+INFO: [VRFC 10-3107] analyzing entity '\clk_wiz__clk_wiz_clk_wiz\'
+INFO: [VRFC 10-3107] analyzing entity 'compteur_25dutycycle'
+INFO: [VRFC 10-3107] analyzing entity 'spi_master'
+INFO: [VRFC 10-3107] analyzing entity 'sync_io_1'
+INFO: [VRFC 10-3107] analyzing entity 'sync_io_1_0'
+INFO: [VRFC 10-3107] analyzing entity 'sync_io_1_1'
+INFO: [VRFC 10-3107] analyzing entity 'sync_io_1_2'
+INFO: [VRFC 10-3107] analyzing entity 'sync_io_1_3'
+INFO: [VRFC 10-3107] analyzing entity 'sync_io_1_4'
+INFO: [VRFC 10-3107] analyzing entity 'clk_wiz'
+INFO: [VRFC 10-3107] analyzing entity 'horloge'
+INFO: [VRFC 10-3107] analyzing entity 'horloge_oled'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/tp3_bb_27mars/TP3_BB_ARD/rtl/ROM_data.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/tp3_bb_27mars/TP3_BB_ARD/TP3_BB_ARD.srcs/sim_1/new/horloge_oled_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'horloge_oled_TB'

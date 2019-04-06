@@ -1,0 +1,626 @@
+
+*** Running vivado
+    with args -log horloge_oled.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source horloge_oled.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source horloge_oled.tcl -notrace
+Command: synth_design -top horloge_oled -part xc7a200tsbg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11840 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 367.910 ; gain = 100.313
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'horloge_oled' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge_oled.vhd:30]
+INFO: [Synth 8-3491] module 'horloge' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge.vhd:18' bound to instance 'inst_horloge' of component 'horloge' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge_oled.vhd:265]
+INFO: [Synth 8-638] synthesizing module 'horloge' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge.vhd:34]
+	Parameter MULTIPLIER bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'diviseur_horloge' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/diviseur_horloge.vhd:19' bound to instance 'INST_diviseur_horloge_deb' of component 'diviseur_horloge' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge.vhd:143]
+INFO: [Synth 8-638] synthesizing module 'diviseur_horloge' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/diviseur_horloge.vhd:27]
+	Parameter MULTIPLIER bound to: 1 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'diviseur_horloge' (1#1) [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/diviseur_horloge.vhd:27]
+	Parameter MULTIPLIER bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'diviseur_horloge' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/diviseur_horloge.vhd:19' bound to instance 'INST_diviseur_horloge_sec' of component 'diviseur_horloge' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge.vhd:155]
+INFO: [Synth 8-3491] module 'msa_horloge' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/msa_horloge.vhd:16' bound to instance 'INST_msa_horloge' of component 'msa_horloge' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge.vhd:167]
+INFO: [Synth 8-638] synthesizing module 'msa_horloge' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/msa_horloge.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'msa_horloge' (2#1) [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/msa_horloge.vhd:26]
+	Parameter TERMINAL_COUNT bound to: 23 - type: integer 
+INFO: [Synth 8-3491] module 'compteur_bcd_2' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/compteur_bcd_2.vhd:18' bound to instance 'INST_heures' of component 'compteur_bcd_2' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge.vhd:184]
+INFO: [Synth 8-638] synthesizing module 'compteur_bcd_2' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/compteur_bcd_2.vhd:29]
+	Parameter TERMINAL_COUNT bound to: 23 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'compteur_bcd_2' (3#1) [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/compteur_bcd_2.vhd:29]
+	Parameter TERMINAL_COUNT bound to: 59 - type: integer 
+INFO: [Synth 8-3491] module 'compteur_bcd_2' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/compteur_bcd_2.vhd:18' bound to instance 'INST_minutes' of component 'compteur_bcd_2' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge.vhd:203]
+INFO: [Synth 8-638] synthesizing module 'compteur_bcd_2__parameterized1' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/compteur_bcd_2.vhd:29]
+	Parameter TERMINAL_COUNT bound to: 59 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'compteur_bcd_2__parameterized1' (3#1) [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/compteur_bcd_2.vhd:29]
+	Parameter TERMINAL_COUNT bound to: 59 - type: integer 
+INFO: [Synth 8-3491] module 'compteur_bcd_2' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/compteur_bcd_2.vhd:18' bound to instance 'INST_secondes' of component 'compteur_bcd_2' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge.vhd:222]
+	Parameter GENERIC_IO_LOGIC bound to: 1'b1 
+INFO: [Synth 8-3491] module 'sync_io_1' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/sync_io_1.vhd:16' bound to instance 'inst_sync_io_up' of component 'sync_io_1' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge.vhd:239]
+INFO: [Synth 8-638] synthesizing module 'sync_io_1' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/sync_io_1.vhd:29]
+	Parameter GENERIC_IO_LOGIC bound to: 1'b1 
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "TRUE" *) [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/sync_io_1.vhd:31]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "TRUE" *) [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/sync_io_1.vhd:32]
+INFO: [Synth 8-256] done synthesizing module 'sync_io_1' (4#1) [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/sync_io_1.vhd:29]
+INFO: [Synth 8-3491] module 'antirebond_1b_dfm' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/antirebond_1b_dfm.vhd:20' bound to instance 'inst_ar_up' of component 'antirebond_1b_dfm' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge.vhd:251]
+INFO: [Synth 8-638] synthesizing module 'antirebond_1b_dfm' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/antirebond_1b_dfm.vhd:33]
+	Parameter GENERIC_SW_LOGIC bound to: 1'b1 
+INFO: [Synth 8-256] done synthesizing module 'antirebond_1b_dfm' (5#1) [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/antirebond_1b_dfm.vhd:33]
+	Parameter GENERIC_IO_LOGIC bound to: 1'b1 
+INFO: [Synth 8-3491] module 'sync_io_1' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/sync_io_1.vhd:16' bound to instance 'inst_sync_io_center' of component 'sync_io_1' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge.vhd:260]
+INFO: [Synth 8-3491] module 'antirebond_1b_dfm' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/antirebond_1b_dfm.vhd:20' bound to instance 'inst_ar_center' of component 'antirebond_1b_dfm' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge.vhd:272]
+	Parameter GENERIC_IO_LOGIC bound to: 1'b1 
+INFO: [Synth 8-3491] module 'sync_io_1' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/sync_io_1.vhd:16' bound to instance 'inst_clk_io_left' of component 'sync_io_1' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge.vhd:281]
+INFO: [Synth 8-3491] module 'antirebond_1b_dfm' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/antirebond_1b_dfm.vhd:20' bound to instance 'inst_ar_left' of component 'antirebond_1b_dfm' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge.vhd:293]
+	Parameter GENERIC_IO_LOGIC bound to: 1'b1 
+INFO: [Synth 8-3491] module 'sync_io_1' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/sync_io_1.vhd:16' bound to instance 'inst_sync_io_speed_0' of component 'sync_io_1' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge.vhd:302]
+	Parameter GENERIC_IO_LOGIC bound to: 1'b1 
+INFO: [Synth 8-3491] module 'sync_io_1' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/sync_io_1.vhd:16' bound to instance 'inst_sync_io_speed_1' of component 'sync_io_1' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge.vhd:315]
+INFO: [Synth 8-3491] module 'compteur_25dutycycle' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/compteur_25dutycycle.vhd:20' bound to instance 'trotteuse' of component 'compteur_25dutycycle' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge.vhd:329]
+INFO: [Synth 8-638] synthesizing module 'compteur_25dutycycle' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/compteur_25dutycycle.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'compteur_25dutycycle' (6#1) [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/compteur_25dutycycle.vhd:28]
+INFO: [Synth 8-256] done synthesizing module 'horloge' (7#1) [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge.vhd:34]
+INFO: [Synth 8-3491] module 'power_reg' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/power_reg.vhd:16' bound to instance 'pwr_regs_proc' of component 'power_reg' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge_oled.vhd:281]
+INFO: [Synth 8-638] synthesizing module 'power_reg' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/power_reg.vhd:27]
+INFO: [Synth 8-256] done synthesizing module 'power_reg' (8#1) [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/power_reg.vhd:27]
+INFO: [Synth 8-3491] module 'spi_master' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/spi_master.vhd:5' bound to instance 'Inst_spi_master' of component 'spi_master' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge_oled.vhd:293]
+INFO: [Synth 8-638] synthesizing module 'spi_master' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/spi_master.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'spi_master' (9#1) [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/spi_master.vhd:17]
+INFO: [Synth 8-3491] module 'display_fsm' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/display_fsm.vhd:19' bound to instance 'inst_display_fsm' of component 'display_fsm' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge_oled.vhd:306]
+INFO: [Synth 8-638] synthesizing module 'display_fsm' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/display_fsm.vhd:37]
+INFO: [Synth 8-256] done synthesizing module 'display_fsm' (10#1) [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/display_fsm.vhd:37]
+INFO: [Synth 8-3491] module 'delay_cnt' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/delay_cnt.vhd:17' bound to instance 'Inst_delay_cnt' of component 'delay_cnt' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge_oled.vhd:324]
+INFO: [Synth 8-638] synthesizing module 'delay_cnt' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/delay_cnt.vhd:26]
+INFO: [Synth 8-256] done synthesizing module 'delay_cnt' (11#1) [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/delay_cnt.vhd:26]
+INFO: [Synth 8-3491] module 'cmd_addr' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/cmd_addr.vhd:20' bound to instance 'Inst_cmd_addr' of component 'cmd_addr' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge_oled.vhd:333]
+INFO: [Synth 8-638] synthesizing module 'cmd_addr' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/cmd_addr.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'cmd_addr' (12#1) [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/cmd_addr.vhd:29]
+INFO: [Synth 8-3491] module 'clk_wiz' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/TP3_BB_ARD.runs/synth_1/.Xil/Vivado-1580-LAPTOP-BBEOS0G3/realtime/clk_wiz_stub.vhdl:5' bound to instance 'Inst_clk_wiz' of component 'clk_wiz' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge_oled.vhd:342]
+INFO: [Synth 8-638] synthesizing module 'clk_wiz' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/TP3_BB_ARD.runs/synth_1/.Xil/Vivado-1580-LAPTOP-BBEOS0G3/realtime/clk_wiz_stub.vhdl:16]
+	Parameter GENERIC_IO_LOGIC bound to: 1'b1 
+INFO: [Synth 8-3491] module 'sync_io_1' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/sync_io_1.vhd:16' bound to instance 'inst_sync_io_rst' of component 'sync_io_1' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge_oled.vhd:356]
+	Parameter GENERIC_SW_LOGIC bound to: 1'b1 
+INFO: [Synth 8-3491] module 'antirebond_1b' declared at 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/antirebond_1b.vhd:20' bound to instance 'inst_ar_rst' of component 'antirebond_1b' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge_oled.vhd:370]
+INFO: [Synth 8-638] synthesizing module 'antirebond_1b' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/antirebond_1b.vhd:33]
+	Parameter GENERIC_SW_LOGIC bound to: 1'b1 
+INFO: [Synth 8-256] done synthesizing module 'antirebond_1b' (13#1) [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/antirebond_1b.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'horloge_oled' (14#1) [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge_oled.vhd:30]
+WARNING: [Synth 8-3331] design antirebond_1b has unconnected port en_i
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 424.242 ; gain = 156.645
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 424.242 ; gain = 156.645
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 424.242 ; gain = 156.645
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/TP3_BB_ARD.srcs/sources_1/ip/clk_wiz/clk_wiz/clk_wiz_in_context.xdc] for cell 'Inst_clk_wiz'
+Finished Parsing XDC File [c:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/TP3_BB_ARD.srcs/sources_1/ip/clk_wiz/clk_wiz/clk_wiz_in_context.xdc] for cell 'Inst_clk_wiz'
+Parsing XDC File [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/constraints/NexysVideo_Master.xdc]
+Finished Parsing XDC File [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/constraints/NexysVideo_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/constraints/NexysVideo_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/horloge_oled_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/horloge_oled_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/TP3_BB_ARD.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/TP3_BB_ARD.runs/synth_1/dont_touch.xdc]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 820.168 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 820.168 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 820.168 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 820.168 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 820.168 ; gain = 552.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tsbg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 820.168 ; gain = 552.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for clk_100mhz_i. (constraint file  {c:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/TP3_BB_ARD.srcs/sources_1/ip/clk_wiz/clk_wiz/clk_wiz_in_context.xdc}, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for clk_100mhz_i. (constraint file  {c:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/TP3_BB_ARD.srcs/sources_1/ip/clk_wiz/clk_wiz/clk_wiz_in_context.xdc}, line 5).
+Applied set_property DONT_TOUCH = true for Inst_clk_wiz. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 820.168 ; gain = 552.570
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'etat_reg' in module 'msa_horloge'
+INFO: [Synth 8-5544] ROM "prog_m_o" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "prog_h_o" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "etat" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "etat" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "etat" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "b_clean" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "count_on" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count_on" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "count_tot" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5544] ROM "speed_clk_m" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-802] inferred FSM for state register 'etat_present1_reg' in module 'display_fsm'
+INFO: [Synth 8-802] inferred FSM for state register 'etat_present2_reg' in module 'display_fsm'
+INFO: [Synth 8-5544] ROM "df_mux_sel_o" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "etat_suivant1" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "df_cmd_inc_o" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "etat_suivant2" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "b_shiftreg" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "b_clean" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "b_clean" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               affichage |                              001 |                               00
+             prog_heures |                              010 |                               01
+                  iSTATE |                              100 |                               10
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'etat_reg' using encoding 'one-hot' in module 'msa_horloge'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+               demarrage |                            10000 |                              000
+               dumb_wait |                            01000 |                              001
+          lecturetransmi |                            00010 |                              010
+                  iSTATE |                            00100 |                              011
+*
+                 attente |                            00001 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'etat_present2_reg' using encoding 'one-hot' in module 'display_fsm'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                     cmd |                              100 |                               00
+                last_cmd |                              010 |                               01
+                  iSTATE |                              001 |                               10
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'etat_present1_reg' using encoding 'one-hot' in module 'display_fsm'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 820.168 ; gain = 552.570
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input     19 Bit       Adders := 1     
+	   2 Input      9 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 10    
++---Registers : 
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 2     
+	               19 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 6     
+	                5 Bit    Registers := 1     
+	                4 Bit    Registers := 7     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 29    
++---ROMs : 
+	                              ROMs := 1     
++---Muxes : 
+	 512 Input     64 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   3 Input     32 Bit        Muxes := 1     
+	   4 Input     27 Bit        Muxes := 2     
+	   2 Input     19 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 2     
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 5     
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 32    
+	   3 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module horloge_oled 
+Detailed RTL Component Info : 
++---Registers : 
+	               64 Bit    Registers := 1     
+	                8 Bit    Registers := 1     
++---ROMs : 
+	                              ROMs := 1     
++---Muxes : 
+	 512 Input     64 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 1     
+Module diviseur_horloge 
+Detailed RTL Component Info : 
++---Registers : 
+	                2 Bit    Registers := 1     
++---Muxes : 
+	   4 Input     27 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module msa_horloge 
+Detailed RTL Component Info : 
++---Muxes : 
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 3     
+Module compteur_bcd_2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 8     
+Module compteur_bcd_2__parameterized1 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 8     
+Module sync_io_1 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module antirebond_1b_dfm 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+Module compteur_25dutycycle 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   3 Input     32 Bit        Muxes := 1     
+Module horloge 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+Module power_reg 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 3     
+Module spi_master 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+Module display_fsm 
+Detailed RTL Component Info : 
++---Muxes : 
+	   5 Input      5 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+Module delay_cnt 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     19 Bit       Adders := 1     
++---Registers : 
+	               19 Bit    Registers := 1     
++---Muxes : 
+	   2 Input     19 Bit        Muxes := 2     
+Module cmd_addr 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      9 Bit       Adders := 1     
++---Registers : 
+	                9 Bit    Registers := 1     
+Module antirebond_1b 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
++---Registers : 
+	                8 Bit    Registers := 1     
+	                5 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-4471] merging register 'inst_horloge/inst_ar_center/en_r_reg' into 'inst_horloge/inst_ar_up/en_r_reg' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/antirebond_1b_dfm.vhd:49]
+INFO: [Synth 8-4471] merging register 'inst_horloge/inst_ar_left/en_r_reg' into 'inst_horloge/inst_ar_up/en_r_reg' [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/antirebond_1b_dfm.vhd:49]
+WARNING: [Synth 8-3936] Found unconnected internal register 'cmd_data_vector_reg' and it is trimmed from '64' to '40' bits. [C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge_oled.vhd:228]
+INFO: [Synth 8-5544] ROM "inst_horloge/speed_clk_m" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "inst_horloge/inst_ar_up/b_clean" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst_horloge/inst_ar_center/b_clean" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "inst_horloge/inst_ar_left/b_clean" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "inst_horloge/trotteuse/count_tot" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst_horloge/trotteuse/count_on" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-3917] design horloge_oled has port ho_dels_o[6] driven by constant 0
+WARNING: [Synth 8-3917] design horloge_oled has port ho_dels_o[5] driven by constant 0
+WARNING: [Synth 8-3917] design horloge_oled has port ho_dels_o[4] driven by constant 0
+WARNING: [Synth 8-3917] design horloge_oled has port ho_dels_o[3] driven by constant 0
+WARNING: [Synth 8-3917] design horloge_oled has port ho_dels_o[2] driven by constant 0
+WARNING: [Synth 8-3917] design horloge_oled has port ho_dels_o[1] driven by constant 0
+WARNING: [Synth 8-3917] design horloge_oled has port ho_dels_o[0] driven by constant 0
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[25]' (FD) to 'cmd_data_vector_reg[26]'
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[26]' (FD) to 'cmd_data_vector_reg[24]'
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[24]' (FD) to 'cmd_data_vector_reg[23]'
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[23]' (FD) to 'cmd_data_vector_reg[21]'
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[31]' (FD) to 'cmd_data_vector_reg[22]'
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[30]' (FD) to 'cmd_data_vector_reg[22]'
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[29]' (FD) to 'cmd_data_vector_reg[22]'
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[28]' (FD) to 'cmd_data_vector_reg[22]'
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[27]' (FD) to 'cmd_data_vector_reg[22]'
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[22]' (FD) to 'cmd_data_vector_reg[19]'
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[21]' (FD) to 'cmd_data_vector_reg[13]'
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[20]' (FD) to 'cmd_data_vector_reg[17]'
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[19]' (FD) to 'cmd_data_vector_reg[18]'
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[18]' (FD) to 'cmd_data_vector_reg[14]'
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[17]' (FD) to 'cmd_data_vector_reg[15]'
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[15]' (FD) to 'cmd_data_vector_reg[11]'
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[14]' (FD) to 'cmd_data_vector_reg[12]'
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[13]' (FD) to 'cmd_data_vector_reg[35]'
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[12]' (FD) to 'cmd_data_vector_reg[10]'
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[11]' (FD) to 'cmd_data_vector_reg[33]'
+INFO: [Synth 8-3886] merging instance 'cmd_data_vector_reg[10]' (FD) to 'cmd_data_vector_reg[8]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\cmd_data_vector_reg[8] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 820.168 ; gain = 552.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+ROM:
++-------------+---------------+---------------+----------------+
+|Module Name  | RTL Object    | Depth x Width | Implemented As | 
++-------------+---------------+---------------+----------------+
+|horloge_oled | char_data_reg | 1024x8        | Block RAM      | 
++-------------+---------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance i_0/char_data_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Inst_clk_wiz/clk_out1' to pin 'Inst_clk_wiz/bbstub_clk_out1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'Inst_clk_wiz/clk_out2' to pin 'Inst_clk_wiz/bbstub_clk_out2/O'
+INFO: [Synth 8-5819] Moved 2 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:32 . Memory (MB): peak = 820.168 ; gain = 552.570
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:33 . Memory (MB): peak = 830.172 ; gain = 562.574
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6837] The timing for the instance char_data_reg (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the block ram. Providing additional output register may help in improving timing.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 836.656 ; gain = 569.059
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 836.656 ; gain = 569.059
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 836.656 ; gain = 569.059
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 836.656 ; gain = 569.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 836.656 ; gain = 569.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 836.656 ; gain = 569.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 836.656 ; gain = 569.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |clk_wiz       |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |clk_wiz_bbox_0 |     1|
+|2     |CARRY4         |    45|
+|3     |LUT1           |    93|
+|4     |LUT2           |    48|
+|5     |LUT3           |    27|
+|6     |LUT4           |    63|
+|7     |LUT5           |    98|
+|8     |LUT6           |    63|
+|9     |MUXF7          |     4|
+|10    |RAMB18E1       |     1|
+|11    |FDRE           |   276|
+|12    |FDSE           |    11|
+|13    |IBUF           |     6|
+|14    |OBUF           |    14|
++------+---------------+------+
+
+Report Instance Areas: 
++------+------------------------------+---------------------------------+------+
+|      |Instance                      |Module                           |Cells |
++------+------------------------------+---------------------------------+------+
+|1     |top                           |                                 |   752|
+|2     |  Inst_cmd_addr               |cmd_addr                         |    39|
+|3     |  Inst_delay_cnt              |delay_cnt                        |    51|
+|4     |  Inst_spi_master             |spi_master                       |    18|
+|5     |  inst_ar_rst                 |antirebond_1b                    |    25|
+|6     |  inst_display_fsm            |display_fsm                      |    47|
+|7     |  inst_horloge                |horloge                          |   524|
+|8     |    INST_diviseur_horloge_deb |diviseur_horloge                 |    82|
+|9     |    INST_diviseur_horloge_sec |diviseur_horloge_0               |    82|
+|10    |    INST_heures               |compteur_bcd_2                   |    32|
+|11    |    INST_minutes              |compteur_bcd_2__parameterized1   |    24|
+|12    |    INST_msa_horloge          |msa_horloge                      |    14|
+|13    |    INST_secondes             |compteur_bcd_2__parameterized1_1 |    26|
+|14    |    inst_ar_center            |antirebond_1b_dfm                |    15|
+|15    |    inst_ar_left              |antirebond_1b_dfm_2              |    15|
+|16    |    inst_ar_up                |antirebond_1b_dfm_3              |    16|
+|17    |    inst_clk_io_left          |sync_io_1_4                      |     2|
+|18    |    inst_sync_io_center       |sync_io_1_5                      |     2|
+|19    |    inst_sync_io_speed_0      |sync_io_1_6                      |     2|
+|20    |    inst_sync_io_speed_1      |sync_io_1_7                      |     2|
+|21    |    inst_sync_io_up           |sync_io_1_8                      |     2|
+|22    |    trotteuse                 |compteur_25dutycycle             |   208|
+|23    |  inst_sync_io_rst            |sync_io_1                        |     3|
+|24    |  pwr_regs_proc               |power_reg                        |     3|
++------+------------------------------+---------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 836.656 ; gain = 569.059
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:26 . Memory (MB): peak = 836.656 ; gain = 173.133
+Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 836.656 ; gain = 569.059
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 50 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 836.656 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+127 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 836.656 ; gain = 577.598
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 836.656 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/TP3_BB_ARD.runs/synth_1/horloge_oled.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file horloge_oled_utilization_synth.rpt -pb horloge_oled_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Apr  5 18:32:15 2019...

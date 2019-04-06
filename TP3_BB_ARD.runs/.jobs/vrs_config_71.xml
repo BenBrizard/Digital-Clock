@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="synth_1" LaunchDir="C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/tp3_bb_4avril/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/TP3_BB_ARD.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

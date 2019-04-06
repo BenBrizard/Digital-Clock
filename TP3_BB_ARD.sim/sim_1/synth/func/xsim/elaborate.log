@@ -1,0 +1,63 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 2f9a300bca30476d9ca561ff29dd62b8 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot horloge_oled_TB_func_synth xil_defaultlib.horloge_oled_TB xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package xil_defaultlib.rom_data
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling module xil_defaultlib.glbl
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture ibuf_v of entity unisim.IBUF [\IBUF(1,9)(1,1)(1,4)(1,7)\]
+Compiling architecture mmcme2_adv_v of entity unisim.MMCME2_ADV [\MMCME2_ADV(clkfbout_mult_f=6.25...]
+Compiling architecture structure of entity xil_defaultlib.\clk_wiz__clk_wiz_clk_wiz\ [\clk_wiz__clk_wiz_clk_wiz_defaul...]
+Compiling architecture structure of entity xil_defaultlib.clk_wiz [clk_wiz_default]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000111100001110")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111000000001110")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1100110011000010")(0...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1010101010101000")(0...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111110000000011111...]
+Compiling architecture structure of entity xil_defaultlib.spi_master [spi_master_default]
+Compiling architecture obuf_v of entity unisim.OBUF [\OBUF(1,9)(1,7)(1,4)\]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111111100111111...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10000000000000000000...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000000000000000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000000000000000000...]
+Compiling architecture lut1_v of entity unisim.LUT1 [\LUT1(init="0001")(0,3)\]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1001")(0,3)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="10101001")(0,7)\]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1010101010101001")(0...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10101010101010101010...]
+Compiling architecture structure of entity xil_defaultlib.antirebond_1b [antirebond_1b_default]
+Compiling architecture structure of entity xil_defaultlib.sync_io_1_0 [sync_io_1_0_default]
+Compiling architecture structure of entity xil_defaultlib.sync_io_1_1 [sync_io_1_1_default]
+Compiling architecture structure of entity xil_defaultlib.sync_io_1_2 [sync_io_1_2_default]
+Compiling architecture structure of entity xil_defaultlib.sync_io_1_3 [sync_io_1_3_default]
+Compiling architecture structure of entity xil_defaultlib.sync_io_1_4 [sync_io_1_4_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="01010101010101010101...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="10101010101010101010...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111111111100000...]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="11111111111111111111...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="1111111111111110")(0...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="11111111111111111111...]
+Compiling architecture lut2_v of entity unisim.LUT2 [\LUT2(init="1110")(0,3)\]
+Compiling architecture carry4_v of entity unisim.CARRY4 [carry4_default]
+Compiling architecture structure of entity xil_defaultlib.compteur_25dutycycle [compteur_25dutycycle_default]
+Compiling architecture structure of entity xil_defaultlib.horloge [horloge_default]
+Compiling architecture structure of entity xil_defaultlib.sync_io_1 [sync_io_1_default]
+Compiling architecture structure of entity xil_defaultlib.horloge_oled [horloge_oled_default]
+Compiling architecture behavioral of entity xil_defaultlib.horloge_oled_tb
+Built simulation snapshot horloge_oled_TB_func_synth

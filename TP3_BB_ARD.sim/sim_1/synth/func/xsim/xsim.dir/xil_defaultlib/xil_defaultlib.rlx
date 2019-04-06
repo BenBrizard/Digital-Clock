@@ -1,0 +1,8 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/tp3_bb_27mars/TP3_BB_ARD/TP3_BB_ARD.sim/sim_1/synth/func/xsim/glbl.v,1544155482,verilog,,,,glbl,,,,,,,,
+D:/tp3_bb_27mars/TP3_BB_ARD/TP3_BB_ARD.sim/sim_1/synth/func/xsim/horloge_oled_TB_func_synth.vhd,1553779461,vhdl,,,,\clk_wiz__clk_wiz_clk_wiz\;antirebond_1b;clk_wiz;compteur_25dutycycle;horloge;horloge_oled;spi_master;sync_io_1;sync_io_1_0;sync_io_1_1;sync_io_1_2;sync_io_1_3;sync_io_1_4,,,,,,,,
+D:/tp3_bb_27mars/TP3_BB_ARD/TP3_BB_ARD.srcs/sim_1/new/horloge_oled_TB.vhd,1553738974,vhdl,,,,horloge_oled_tb,,,,,,,,
+D:/tp3_bb_27mars/TP3_BB_ARD/rtl/ROM_data.vhd,1553730750,vhdl,D:/tp3_bb_27mars/TP3_BB_ARD/TP3_BB_ARD.srcs/sim_1/new/horloge_oled_TB.vhd,,,rom_data,,,,,,,,

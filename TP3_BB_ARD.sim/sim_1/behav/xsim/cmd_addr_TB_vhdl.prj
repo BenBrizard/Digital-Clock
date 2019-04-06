@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../rtl/cmd_addr.vhd" \
+"../../../../TP3_BB_ARD.srcs/sim_1/new/cmd_addr_TB.vhd" \
+
+# Do not sort compile order
+nosort

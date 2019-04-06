@@ -1,0 +1,7 @@
+Running: xsim.dir/horloge_oled_TB_func_synth/xsimk.exe -simmode gui -wdb horloge_oled_TB_func_synth.wdb -simrunnum 0 -socket 54969
+Design successfully loaded
+Design Loading Memory Usage: 7180 KB (Peak: 7180 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 13372 KB (Peak: 13372 KB)
+Simulation CPU Usage: 16145 ms

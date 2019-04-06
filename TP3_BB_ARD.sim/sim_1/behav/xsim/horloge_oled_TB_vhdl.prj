@@ -1,0 +1,21 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../rtl/ROM_data.vhd" \
+"../../../../rtl/antirebond_1b.vhd" \
+"../../../../rtl/antirebond_1b_dfm.vhd" \
+"../../../../rtl/cmd_addr.vhd" \
+"../../../../rtl/compteur_25dutycycle.vhd" \
+"../../../../rtl/compteur_bcd_2.vhd" \
+"../../../../rtl/delay_cnt.vhd" \
+"../../../../rtl/display_fsm.vhd" \
+"../../../../rtl/diviseur_horloge.vhd" \
+"../../../../rtl/horloge.vhd" \
+"../../../../rtl/horloge_oled.vhd" \
+"../../../../rtl/msa_horloge.vhd" \
+"../../../../rtl/power_reg.vhd" \
+"../../../../rtl/spi_master.vhd" \
+"../../../../rtl/sync_io_1.vhd" \
+"../../../../TP3_BB_ARD.srcs/sim_1/new/horloge_oled_TB.vhd" \
+
+# Do not sort compile order
+nosort

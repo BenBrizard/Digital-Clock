@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../rtl/delay_cnt.vhd" \
+"../../../../TP3_BB_ARD.srcs/sim_1/new/delay_cnt_TB.vhd" \
+
+# Do not sort compile order
+nosort

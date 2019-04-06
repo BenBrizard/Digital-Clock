@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Mar 27 21:32:09 2019
+# Process ID: 1856
+# Current directory: C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/115_21_mars/115/115/115/TP3_BB_ARD/TP3_BB_ARD.sim/sim_1/synth/func/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/115_21_mars/115/115/115/TP3_BB_ARD/TP3_BB_ARD.sim/sim_1/synth/func/xsim/xsim.dir/horloge_oled_TB_func_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/115_21_mars/115/115/115/TP3_BB_ARD/TP3_BB_ARD.sim/sim_1/synth/func/xsim/webtalk.log
+# Journal file: C:/Users/Benoit Brizard/Documents/1-hiv19/ELE3311/lab/tp3/115_21_mars/115/115/115/TP3_BB_ARD/TP3_BB_ARD.sim/sim_1/synth/func/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Benoit -notrace

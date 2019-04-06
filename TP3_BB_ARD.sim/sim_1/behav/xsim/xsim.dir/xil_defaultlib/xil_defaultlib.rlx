@@ -1,0 +1,26 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/TP3_BB_ARD.sim/sim_1/behav/xsim/glbl.v,1544155482,verilog,,,,glbl,,,,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/TP3_BB_ARD.srcs/sim_1/new/cmd_addr_TB.vhd,1552615426,vhdl,,,,cmd_addr_tb,,,,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/TP3_BB_ARD.srcs/sim_1/new/delay_cnt_TB.vhd,1552616494,vhdl,,,,delay_cnt_tb,,,,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/TP3_BB_ARD.srcs/sim_1/new/horloge_oled_TB.vhd,1553738974,vhdl,,,,horloge_oled_tb,,,,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/TP3_BB_ARD.srcs/sim_1/new/spi_master_TB.vhd,1552615156,vhdl,,,,spi_master_tb,,,,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/TP3_BB_ARD.srcs/sources_1/ip/clk_wiz/clk_wiz.v,1553646768,verilog,,,,clk_wiz,,,../../../../TP3_BB_ARD.srcs/sources_1/ip/clk_wiz,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/TP3_BB_ARD.srcs/sources_1/ip/clk_wiz/clk_wiz_clk_wiz.v,1553646766,verilog,,D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/TP3_BB_ARD.srcs/sources_1/ip/clk_wiz/clk_wiz.v,,clk_wiz_clk_wiz,,,../../../../TP3_BB_ARD.srcs/sources_1/ip/clk_wiz,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/ROM_data.vhd,1554392049,vhdl,D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/TP3_BB_ARD.srcs/sim_1/new/horloge_oled_TB.vhd;D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge_oled.vhd,,,rom_data,,,,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/antirebond_1b.vhd,1553174850,vhdl,,,,antirebond_1b,,,,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/antirebond_1b_dfm.vhd,1552569516,vhdl,,,,antirebond_1b_dfm,,,,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/cmd_addr.vhd,1552579684,vhdl,,,,cmd_addr,,,,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/compteur_25dutycycle.vhd,1553178596,vhdl,,,,compteur_25dutycycle,,,,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/compteur_bcd_2.vhd,1553174850,vhdl,,,,compteur_bcd_2,,,,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/delay_cnt.vhd,1554391387,vhdl,,,,delay_cnt,,,,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/display_fsm.vhd,1554388487,vhdl,,,,display_fsm,,,,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/diviseur_horloge.vhd,1553174850,vhdl,,,,diviseur_horloge,,,,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge.vhd,1553174850,vhdl,,,,horloge,,,,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/horloge_oled.vhd,1554387763,vhdl,,,,horloge_oled,,,,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/msa_horloge.vhd,1553174850,vhdl,,,,msa_horloge,,,,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/power_reg.vhd,1552569516,vhdl,,,,power_reg,,,,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/spi_master.vhd,1553907146,vhdl,,,,spi_master,,,,,,,,
+D:/tp3_bb_1avril/tp3_bb_1avril/tp3_bb_30mars/rtl/sync_io_1.vhd,1552569516,vhdl,,,,sync_io_1,,,,,,,,
