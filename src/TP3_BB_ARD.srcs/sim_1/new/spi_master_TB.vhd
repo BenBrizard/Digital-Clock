@@ -83,7 +83,7 @@ begin
  -- Stimulus process
    stim_proc: process
    begin
-  wait for 9/2*clk_period;
+  wait for 3*clk_period;
    
   data_i_tb <= "00001111";
   valid_i_tb <= '1';
